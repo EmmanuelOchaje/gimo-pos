@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+/* body {
+  background: linear-gradient(135deg, 6665ff 0%, #3e8a99 50%, #2cb740 100%);
+} */
+.bg {
+  background: linear-gradient(90deg, #6665ff 0%, #2cb740 100%);
+  /* background: linear-gradient(
+    90deg,
+    #501e9c 0%,
+    #8169f1 40%,
+    #a44cee 75%,
+    #ff847f 100%
+  ); */
+  /* color: #666666; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bxs-purchase-tag,
+.bx-line-chart,
+bx-home-smile,
+.bx-home-smile,
+.bxs-hand,
+.bxs-cog {
+  background-color: #eae3f5;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  color: #6665ff;
+  margin-right: 1rem;
+}
+.video-wrapper {
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.react-player {
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+/* .bx-cloud-download,
+.bxs-star {
+  background-color: transparent;
+  border-radius: 0%;
+  font-size: 3rem;
+  padding: 0.2rem;
+  color: #6665ff;
+  margin-right: 0rem;
+} */
+
+.reactPlayerStyling {
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .reactPlayerStyling {
+    width: 50%;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .reactPlayerStyling {
+    width: 50%;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reactPlayerStyling {
+    width: 50%;
+    height: 400px;
+  }
+}
