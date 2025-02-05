@@ -40,10 +40,10 @@ const Hero = () => {
           <div className="flex"></div>
         </div>
         <div className="flex py-5">
-          <button className="text-2xl rounded-lg mx-2 font-medium text- flex bg-white text-[#6665ff] p-2">
+          <button className="text-xl rounded-lg mx-2 font-semibold text- flex bg-white text-[#6665ff] p-2">
             <Link to="">Register</Link>
           </button>
-          <button className="text-2xl rounded-lg font-medium text- flex bg-white text-[#6665ff] p-2">
+          <button className="text-xl rounded-lg font-semibold text- flex bg-white text-[#6665ff] p-2">
             <Link to="">Sign In</Link>
           </button>
         </div>
