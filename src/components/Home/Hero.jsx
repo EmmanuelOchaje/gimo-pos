@@ -20,7 +20,7 @@ const Hero = () => {
           </span>
           while you are away.
         </h1>
-        <p className="opacity-1 my-5 text-[15px] lg:w-[473px] lw-[433px] text-[#999999]">
+        <p className="opacity-1 my-5 text-[15px] lg:w-[473px] lw-[433px] text-white [#999999]">
           GimoPOS is a mobile and desktop version pos system, it works both
           online and offline, creating a sync of data when there is internet
           connection or no connection.
@@ -40,10 +40,10 @@ const Hero = () => {
           <div className="flex"></div>
         </div>
         <div className="flex py-5">
-          <button className="text-2xl rounded-lg mx-2 font-medium text-white flex bg-[#6665ff] p-2">
+          <button className="text-2xl rounded-lg mx-2 font-medium text- flex bg-white text-[#6665ff] p-2">
             <Link to="">Register</Link>
           </button>
-          <button className="text-2xl rounded-lg font-medium text-white flex bg-[#6665ff] p-2">
+          <button className="text-2xl rounded-lg font-medium text- flex bg-white text-[#6665ff] p-2">
             <Link to="">Sign In</Link>
           </button>
         </div>

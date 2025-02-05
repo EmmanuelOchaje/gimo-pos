@@ -5,11 +5,15 @@
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-body {
-  background: linear-gradient(135deg, 6665ff 0%, #3e8a99 50%, #2cb740 100%);
+
+.bg-cl {
+  background-color: #6665ff;
+  color: white;
 }
+
 .bg {
-  background: linear-gradient(90deg, #6665ff 0%, #2cb740 100%);
+  /* background: linear-gradient(90deg, #6665ff 0%, #2cb740 100%); */
+  background: white;
   /* background: linear-gradient(
     90deg,
     #501e9c 0%,
@@ -21,6 +25,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .bxs-purchase-tag,
 .bx-line-chart,
 bx-home-smile,
