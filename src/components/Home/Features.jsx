@@ -5,13 +5,15 @@ import partner from "../../assets/images/deal.png";
 
 const Features = () => {
   return (
-    <div className="mb-10 px-[6rem]">
+    <div className="my-10 px-[6rem]">
       <h3 className="text-center mb-4 text-[14px] bg-[#6665ff1a] p-1 w-fit mx-auto rounded-lg text-[#6665ff]">
         GimoPOS
       </h3>
       <h2 className="md:text-[40px] text-2xl text-center font-bold mb-6 md:mb-12">
         Realtime{" "}
-        <span className="bg font-bold text-2xl md:text-[40px]">Features</span>
+        <span className="bg-clip font-bold text-2xl md:text-[40px]">
+          Features
+        </span>
       </h2>
 
       <div className="md:flex justify-evenly">

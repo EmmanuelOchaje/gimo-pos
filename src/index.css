@@ -12,8 +12,21 @@
 }
 
 .bg {
-  /* background: linear-gradient(90deg, #6665ff 0%, #2cb740 100%); */
   background: white;
+  /* background: linear-gradient(90deg, #6665ff 0%, #2cb740 100%); */
+  /* background: linear-gradient(
+    90deg,
+    #501e9c 0%,
+    #8169f1 40%,
+    #a44cee 75%,
+    #ff847f 100%
+  ); */
+  /* color: #666666; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-clip {
+  background: linear-gradient(90deg, #6665ff 0%, #2cb740 100%);
   /* background: linear-gradient(
     90deg,
     #501e9c 0%,
