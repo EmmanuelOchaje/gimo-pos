@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="bg-[#f4f1fa] py-10">
       <div>
         <h2 className="text-center">
-          <span className="bg font-bold text-2xl md:text-[35px]">
+          <span className="bg-clip font-bold text-2xl md:text-[35px]">
             Ready To Download?
           </span>
         </h2>
